@@ -1,0 +1,7 @@
+BACKEND : nodemon server 
+FRONTEND : npm start
+- CORS : sécurité qui empeche la connexion entre deux serveurs
+- Un code HTTP de 200 est le code standard pour une requête réussie, surtout pour des requêtes GET.
+- Un code 201 signifie généralement que la requête a réussi, et a causé la création d'une nouvelle ressource.
+- La sécurité CORS est une mesure de sécurité par défaut pour empêcher l'utilisation de ressources par des origines non autorisées, donc CORS survient quand le serveur et le client ne partagent pas la même origine.
+- Quand une requête HTTP est reçue par le serveur, son corps est rarement sous forme utile. Le package body-parser analyse le corps de la requête, et le formate pour en faciliter l'exploitation.
